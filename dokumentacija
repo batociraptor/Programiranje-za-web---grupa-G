@@ -1,0 +1,17 @@
+Stranica za upis i pregled filmova
+
+Na stranici koristimo klase: film, serija, redatelj, glumac, studio, osoblje i reklama.
+
+Sve navedene klase koriste vrstu atributa models.CharField(max_length=x) kako bi se unesle pojedine vrijednosti.
+
+Kod klase film i serija koristimo atribute ime za naziv filma, godinu kada su objavljeni, kojeg su žanra, kojom ocjenom su ocijenjeni, koliki im je bio budžet i ukojoj je državi su proizvedeni.
+
+Klase redatelja i glumca koriste se atribut ime i atribut prezime za naziv glumca tj. redatelja te atribut za unos njihove godine rođenja.
+
+Klasa studio koristi atribut za unos imena studija i atribut godine osnivanja.
+
+Klasa osoblje koristi atribut ime i atribut prezime za naziv osoblja zajedno s atributom uloga koji nam govori koju točno ulogu izvršava pojedini član osoblja.
+
+Klasa reklama ima atribut za naziv izdavača reklame i atribut trajanja s vremenom izvodenja.
+
+Članovi tima: Gabriela Jurković, Matija Cerovac, Bruno Bosiljevac
